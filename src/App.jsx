@@ -1,12 +1,11 @@
 import './App.css'
+import Alarm from './components/Alarm'
 
 function App() {
   return (
     <div className="App">
       <div className="left">
-        <div className="alarm">
-          Quarter Alarm
-        </div>
+        <Alarm />
         <div className="eisenhower">
           Eisenhower Matrix
         </div>
